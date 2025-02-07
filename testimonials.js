@@ -3,25 +3,25 @@ const testimonials = [
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry..Lorem Ipsum remains the benchmark for dummy text in the printing industry....Lorem Ipsum remains the benchmark for dummy text in the printing industry.....",
         name: "James Thomas",
         country: "GERMANY",
-        image: "james-thomas.png"
+        image: "assets/imgs/male_student.png"
     },
     {
         text: "The printing and typesetting industry has been using Lorem Ipsum..Lorem Ipsum remains the benchmark for dummy text in the printing industry....Lorem Ipsum remains the benchmark for dummy text in the printing industry.....",
         name: "Sophia Martinez",
         country: "SPAIN",
-        image: "sophia-martinez.png"
+        image: "assets/imgs/male_student.png"
     },
     {
         text: "Lorem Ipsum remains the benchmark for dummy text in the printing industry....Lorem Ipsum remains the benchmark for dummy text in the printing industry....Lorem Ipsum remains the benchmark for dummy text in the printing industry....",
         name: "William Johnson",
         country: "USA",
-        image: "william-johnson.png"
+        image: "assets/imgs/male_student.png"
     },
     {
         text: "A timeless piece of dummy text, Lorem Ipsum has been the industry's choice.Lorem Ipsum remains the benchmark for dummy text in the printing industry....Lorem Ipsum remains the benchmark for dummy text in the printing industry......",
         name: "Emily Chen",
         country: "CANADA",
-        image: "emily-chen.png"
+        image: "assets/imgs/male_student.png"
     }
 ];
 
