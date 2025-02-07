@@ -66,3 +66,44 @@ body::-webkit-scrollbar {
         padding: 0.25em 0.75em;
       }
     }
+
+    /* continuous scale animation */
+  @keyframes continuous-scale {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1); /* Slightly scaled up */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .continuous-scale {
+    animation: continuous-scale 3s infinite ease-in-out;
+  }
+  
+    /* About page */
+    /* Rotating Icons */
+    .rotate-animation {
+      animation: spin 25s linear infinite;
+  }
+  @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+  }
+
+  /* Hover Effects */
+  .statement:hover {
+      transform: scale(1.05);
+      transition: 0.3s ease-in-out;
+  }
+
+  /* Custom AOS */
+  .aos-init[data-aos] {
+      opacity: 0;
+      transition-property: transform, opacity;
+  }
+
+  
